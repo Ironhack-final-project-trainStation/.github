@@ -1,4 +1,4 @@
-FOTO
+![Leonardo_Phoenix_09_A_vibrant_digital_illustration_for_the_On_1.jpg](Leonardo_Phoenix_09_A_vibrant_digital_illustration_for_the_On_1.jpg)
 
 #  OnTrack - Train station management 
 ## 🚆 Descripción general
