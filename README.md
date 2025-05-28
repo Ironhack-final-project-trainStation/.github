@@ -1,2 +1,2 @@
 # .github
-THIS IS THE READ ME
+This repository includes the organisation's readMe.
