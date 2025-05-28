@@ -120,6 +120,14 @@ El `gateway-service` escucha en el puerto 8087 y enruta las peticiones a los mic
 + Complejizar las clases (por ej: poder mostrar cuántas plazas quedan en un tren).
 + Mejora de respuestas que llaman a feign clients.
 
+## 🔗 Links complementarios
+
++ Trello : https://trello.com/invite/b/681a10787b0754ffa4a954f0/ATTI5c205d7d7c2d56b3408d6673daa8847b41589C61/trainstation
++ Presentación : https://www.canva.com/design/DAGovchV7i4/4GnWZ1YAmVyZ2r1QG5a0JQ/edit?utm_content=DAGovchV7i4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+## 😊 Autoría
+
+Proyecto realizado por Irene Villarreal, con el apoyo de sus profesores, para el trabajo final del bootcamp en Java de Ironhack.
 
 <!--
 
