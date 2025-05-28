@@ -109,13 +109,14 @@ El `gateway-service` escucha en el puerto 8087 y enruta las peticiones a los mic
 ## ✏️ Diagrama UML
 **Estructura de clases**
 
-![img.png](UML diagrama.png)
+![UML diagrama.png](UML%20diagrama.png)
+
 
 ## 🌟 Futuras mejoras
 
-+Incluir atributos de fecha, y poder gestionar viajes activos o pasados según la fecha que se introduzca.\
-+Complejizar las clases (por ej: poder mostrar cuántas plazas quedan en un tren)\
-+Mejora de respuestas que llaman a feign clients.\
++ Incluir atributos de fecha, y poder gestionar viajes activos o pasados según la fecha que se introduzca.\
++ Complejizar las clases (por ej: poder mostrar cuántas plazas quedan en un tren)\
++ Mejora de respuestas que llaman a feign clients.\
 
 
 <!--
