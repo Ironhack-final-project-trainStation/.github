@@ -31,9 +31,9 @@ comunican a través de Feign Clients:
 1. <ins>Crear bases de datos en MySQL<ins>  
 
    
-   CREATE DATABASE traveler_service;\
-   CREATE DATABASE train_service;\
-   CREATE DATABASE driver_service;\
+   CREATE DATABASE traveler_service.\
+   CREATE DATABASE train_service.\
+   CREATE DATABASE driver_service.
 
 
 2. <ins>Clonar los repositorios<ins>
@@ -64,7 +64,9 @@ Modifica el usuario y contraseña de MySQL.
 
 ## 🚦 API Gateway y endpoints
 
-El `gateway-service` escucha en el puerto 8087 y enruta las peticiones a los microservicios de la siguiente forma:\
+El `gateway-service` escucha en el puerto 8087 y enruta las peticiones a los microservicios de la siguiente forma:
+
+
 + `/api/train/**` ➡️ train-service
 + `/api/traveler/**` ➡️ traveler-service
 + `/api/driver/**` ➡️ driver-service
@@ -74,7 +76,7 @@ El `gateway-service` escucha en el puerto 8087 y enruta las peticiones a los mic
 `GET /api/train` obtener todos los trenes activos.\
 `GET /api/train/{id}/info` obtener la información completa de un tren activo, junto su driver y a los passengers.\
 `GET /api/train/{id}` buscar un tren por su id.\
-`GET /api/train/destination/{destination}` buscar un tren por su destino.\ 
+`GET /api/train/destination/{destination}` buscar un tren por su destino.\
 `POST /api/train` crear nuevo tren.\
 `PUT /api/train/{id}` actualiza la información de un tren existente.\
 `DELETE /api/train/{id}` borra un tren existente.
@@ -114,9 +116,9 @@ El `gateway-service` escucha en el puerto 8087 y enruta las peticiones a los mic
 
 ## 🌟 Futuras mejoras
 
-+ Incluir atributos de fecha, y poder gestionar viajes activos o pasados según la fecha que se introduzca.\
-+ Complejizar las clases (por ej: poder mostrar cuántas plazas quedan en un tren)\
-+ Mejora de respuestas que llaman a feign clients.\
++ Incluir atributos de fecha, y poder gestionar viajes activos o pasados según la fecha que se introduzca.
++ Complejizar las clases (por ej: poder mostrar cuántas plazas quedan en un tren).
++ Mejora de respuestas que llaman a feign clients.
 
 
 <!--
